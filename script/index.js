@@ -20,10 +20,9 @@ function main() {
                 card.setAttribute('class', 'person');
                 let img = document.createElement("img");
                 img.setAttribute('src', `./image/starwarschar/${arr[i].name}.jpeg`);
-                // img.addEventListener("click", clickFunction);
-                // img.addEventListener("mouseover", clickFunction);
 
-                let id = arr[i].url.replace(/[^\d]/g, '');
+
+                let id = arr[i].url;
 
                 // let imageTitle = document.createElement("p");
                 // imageTitle.textContent = arr[i].name;
